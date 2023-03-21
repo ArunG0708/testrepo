@@ -4,10 +4,6 @@
    
 }
 
-.menu > ul{
-    /* background-color: black; */
-    
-}
   .menu ul {
     list-style: none;
     position: relative;
@@ -44,10 +40,11 @@
     display: block;
     transition: 0.5s;
   }
-  .menu ul li:hover{
+  .submenu  li a:hover{
     background: #D22626;
   
   }
+ 
   .menu ul li a:hover{
 color: #fff;
   }
