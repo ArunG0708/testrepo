@@ -1,0 +1,10 @@
+<svg id="LinekdIn_Icon" data-name="LinekdIn Icon" xmlns="http://www.w3.org/2000/svg" width="79.185" height="79.184" viewBox="0 0 79.185 79.184">
+  <g id="_10.linkedin" data-name="10.linkedin" transform="translate(0 0)">
+    <ellipse id="background" cx="39.592" cy="39.592" rx="39.592" ry="39.592" fill="#0b69c7"/>
+    <g id="icon" transform="translate(19.868 19.742)">
+      <path id="Path_77" data-name="Path 77" d="M49.077,43.414A5.419,5.419,0,1,1,43.664,38,5.419,5.419,0,0,1,49.077,43.414Z" transform="translate(-38.24 -38)" fill="#fff"/>
+      <rect id="Rectangle_98" data-name="Rectangle 98" width="8.384" height="26.588" rx="2.57" transform="translate(1.232 13.088)" fill="#fff"/>
+      <path id="Path_78" data-name="Path 78" d="M89.919,76.493V88.067A1.232,1.232,0,0,1,88.687,89.3H82.568a1.232,1.232,0,0,1-1.232-1.232V76.854c0-1.676.486-7.309-4.375-7.309-3.769,0-4.537,3.874-4.7,5.612V88.093A1.232,1.232,0,0,1,71.042,89.3h-5.92a1.227,1.227,0,0,1-1.232-1.232V63.949a1.232,1.232,0,0,1,1.232-1.237h5.92A1.237,1.237,0,0,1,72.3,63.949v2.088c1.4-2.088,3.477-3.717,7.9-3.717C89.976,62.315,89.919,71.466,89.919,76.493Z" transform="translate(-50.5 -49.624)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
