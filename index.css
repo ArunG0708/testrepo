@@ -1,0 +1,504 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+   
+}
+
+.menu > ul{
+    /* background-color: black; */
+    
+}
+  .menu ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+
+  .menu ul a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  .menu ul li{
+    float: left;
+    position: relative;
+  }
+  .menu ul ul{
+    position: absolute;
+    background-color: #fff;
+    left:0;
+    display: none;
+    z-index: 1;
+  }
+  .menu ul ul li{
+    float: none;
+    width: 250px;
+  }
+  .menu ul ul ul{
+    left: 100%;
+    top: 0px;
+  }
+  .menu ul li:hover > ul{
+    display: block;
+    transition: 0.5s;
+  }
+  .menu ul li:hover{
+    background: #D22626;
+  
+  }
+  .menu ul li a:hover{
+color: #fff;
+  }
+  .menu ul ul li:hover{
+    border-left: 3px solid #2c3e50;
+  }
+  .submenu li a{
+    color: black;
+    font-size: medium;
+    padding-top: 3%;
+    padding: 5%;
+  }            
+    .ab-form{
+        display: inline-block;
+    }          
+             
+.study {
+    color: #D22626;
+    font-weight: bolder;
+    font-size: 3.5vw;
+}
+.logo1{
+    width: 180px;
+}
+
+.dream {
+    width: 61%;
+}
+
+.clr-div {
+    background-image: linear-gradient(#D22626, #691313);
+    clip-path: polygon(54% 0, 1044% -6%, 0 151%);
+    width: 70%;
+    height: 500px;
+    right: 0;
+    position: absolute;
+}
+
+.vertical-1 {
+    margin-left: 50px;
+    height: 86px;
+    margin-top: 10px;
+    border-left: 1px solid white;
+    position: relative;
+
+}
+
+.girl-img {
+    position: relative;
+    width: 50%;
+    left: 234px;
+    top: 28px;
+}
+
+.study-complete {
+    z-index: -1;
+}
+
+.polygon-img {
+    position: relative;
+    width: 2%;
+    bottom: -8px;
+    right: 90px;
+}
+
+.section-migrate {
+    background-color: black;
+    position: relative;
+    right: 320px;
+    width: 168%;
+}
+
+.migrate-div {
+    padding-left: 28%;
+}
+
+.blue {
+    background-image: linear-gradient(to right, #398EE2, #1D6E84);
+    border-radius: 17px;
+}
+
+.yellow {
+    background-image: linear-gradient(to right, #FFB300, #C15004);
+    border-radius: 17px;
+}
+
+.green {
+    background-image: linear-gradient(to right, #44953E, #0C3B2A);
+    border-radius: 17px;
+}
+
+.red {
+    background-image: linear-gradient(to right, #D22626, #691313);
+    border-radius: 17px;
+}
+
+.black-btn {
+    background-image: linear-gradient(to right, #343434, #000000);
+
+}
+
+.play-img {
+    position: relative;
+    left: 252px;
+    top: 182px;
+}
+
+.rectangle-div {
+    background-image: linear-gradient(to right, #D22626, #691313);
+    position: absolute;
+    border-radius: 51px 2px 2px 51px;
+    width: 50%;
+    right: 12px;
+}
+
+.years {
+    font-size: small;
+    font-weight: 900;
+    width: 72%;
+}
+
+.info-img {
+    position: absolute;
+    left: 0;
+}
+
+.everyone {
+    color: #D22626;
+}
+
+.about-msg {
+    margin-left: 10%;
+    width: 75%;
+}
+
+.formA {
+    border-radius: 22px;
+    /* width: 82%; */
+    margin-left: 6%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.red-line {
+    border: 1px solid red;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.main-form input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.form-control {
+    border: 0;
+    border-bottom: 1px solid white;
+
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #D22626;;
+    border: 0 !important;
+    border-radius: 30px!important;
+    padding: 0.375rem 1.5rem;
+}
+
+.section-red-backgrnd {
+    background-image: linear-gradient(to right, #D22626, #691313);
+    margin-top: 7%;
+
+}
+
+.arrow-img {
+    float: right;
+    position: relative;
+    bottom: 11px;
+    width: 11%;
+    right: 22px;
+}
+.del{
+    border: none!important;
+    background: unset;
+    color: #fff;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 35%;
+    margin-left: 11%;
+}
+.people {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 7px;
+}
+
+.people-main {
+    padding-top: 5px;
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+.cardt {
+    font-weight: 900;
+}
+
+.ctext {
+    font-size: x-small;
+   }
+
+.ctext1 {
+    font-size: small;
+    font-weight: 500;
+    /* width: 540px; */
+}
+
+.cardt2 {
+    font-size: small;
+    font-weight: bold;
+}
+
+.cardshadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+
+}
+
+.clr-line {
+    background-image: linear-gradient(to right, #D22626, #691313);
+    height: 5px;
+    margin-top: 5%;
+} 
+
+.video-img {
+    border-radius: 16px;
+}
+
+.clr-line2 {
+    background-image: linear-gradient(to right, #D22626, #691313);
+    height: 5px;
+    margin-top: 5%;
+    position: relative;
+    right: 78px;
+}
+
+.clr-line3 {
+    background-image: linear-gradient(to right, #D22626, #691313);
+    height: 5px;
+    margin-top: 6%;
+}
+
+.client-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 87%;
+}
+
+.client-msg {
+    font-size: small;
+    color: grey;
+    width: 65%;
+    margin-left: 18%;
+}
+
+.client-btn {
+    background-color: #D22626;
+    color: white;
+    border-radius: 19px;
+    border: none;
+    padding: 6px;
+    width: 50%;
+}
+
+.left-arrow {
+    position: relative;
+    right: 61px;
+    top: 66px;
+}
+
+.right-arrow {
+    position: relative;
+    left: 62px;
+    top: 66px;
+}
+
+.sec-newsletter {
+    background-color: #D22626;
+    border-radius: 20px;
+    position: relative;
+    top: 55px;
+    padding: 3%;
+}
+
+.subscribe-btn {
+    background-color: black;
+    color: white;
+    padding: 8px 20px 8px 19px;
+    border-radius: 29px;
+    /* width: 80%; */
+}
+
+#place {
+    border-radius: 20px;
+    background-color: white;
+    width: 90%;
+    border: none;
+    padding: 8px;
+    padding-left: 3%;
+}
+
+#place::placeholder {
+    color: grey;
+}
+
+.sec-blackgradient {
+    background-image: linear-gradient(to right, #000000, #343434);
+    padding-top: 5%;
+}
+
+.logo-sec {
+    position: absolute;
+    width: 36%;
+    left: 0;
+    border-radius: 2px 26px 26px 1px;
+}
+
+.nation-logo {
+    margin-left: 17%;
+    width: 65%;
+}
+
+.vertical {
+    margin-left: 50px;
+    height: 86px;
+    margin-top: 40px;
+    border-left: 3px solid white;
+    position: relative;
+    left: 40px;
+}
+
+.form-couseling {
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+
+.red-bar {
+    border: 2px solid red;
+    width: 10%;
+}
+
+.free {
+    border-radius: 2px 26px 26px 1px;
+    /* position: absolute; */
+    left: 0;
+    width: 103%;
+    position: relative;
+    left: -12px;
+}
+
+.horizontal-line {
+    margin-left: 50px;
+    border-bottom: 1px solid red;
+    width: 12%;
+    position: relative;
+    left: 66px;
+    bottom: 8px;
+}
+
+.schedule-btn {
+    background-color: #D22626;
+    color: white;
+    border: none;
+}
+
+.horizontal-lineWhite {
+    border-bottom: 1px solid grey;
+    width: 33%;
+    position: relative;
+    bottom: 5px;
+}
+
+.free-content {
+    padding-left: 23%;
+}
+.client-photo{
+    width: 30%;
+}
+
+.important-link {
+    border-radius: 5px;
+}
+.team-img {
+    width: 79%;
+}
+
+.red-lineBottom {
+    border: 1px solid red;
+}
+.addres{
+    width: 34%;
+    margin-left: 12%;
+}
+.so-img{
+    width: 11%;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    content: "";
+    background-image: url('/SubF/imgs/Down\ Arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #e7f1ff;
+   
+}
+
+.accordion-item {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 8%), 0 6px 20px 0 rgb(0 0 0 / 11%);
+    border: none;
+}
+.desh h4::before {
+    content: "-";
+}
+
+.form-select {
+    display: block;
+    margin-left: 3%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    background-image: url('/SubF/imgs/downward-arrow.png');
+     border-radius: 29px;
+}
+
+
+
+
+
+
+
+
+    
+  
+
+
+   
+
+
+
+
+    

@@ -1,0 +1,578 @@
+
+
+@media screen and  (max-width: 575px) {
+
+.navstick{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    left: 0;
+}
+ .barbtn{
+    position: relative;
+    left: 31px;
+} 
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+.sidenav li a{
+    font-size: larger;
+    margin-left: 8%;
+    
+}
+   
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 0px 8px 5px;;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #D22626;
+  }
+  
+   .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+
+  }
+  .navbar-nav button{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 2%;
+    
+  }
+  .navbar-nav li a{
+    color: black;
+  }
+    
+.migrt-ph li {
+    position: relative;
+    right: 29px;
+        
+    }
+    .logo1{
+        width: 180px;
+        margin-left: 15px;
+    }
+
+.clr-div {
+    clip-path: polygon(0% 0, 993% 2%, 0 151%);
+    width: 100%;
+    height: 344px;
+}
+
+.study-main {
+    position: absolute;
+    z-index: 1;
+}
+.study-main button{
+    margin-left: -5%;
+}
+
+.study {
+    color: #fff;
+    font-size: 2rem;
+    width: 20%;
+    margin-left: -8%;
+    margin-top: 9%;
+
+}
+
+.dream {
+    width: 50%;
+    color: rgb(235, 235, 111);
+    font-size: 16px;
+    margin-left: -7%;
+}
+
+.girl-img {
+    width: 45%;
+    left: 190px;
+    top: 48px;
+    height: 296px;
+}
+
+.more {
+    background-image: linear-gradient(to right, #D22626, #691313);
+   }
+.consult {
+    background-image: linear-gradient(to right, #343434, #000000);
+    margin-top: 5%;
+    margin-right: 11%;
+}
+
+.play-img {
+    left: 145px;
+    top: 387px;
+    width: 21%;
+}
+.ego-phn{
+    padding-left: 20px;
+}
+.team-img {
+    width: 100%;
+}
+.info-img {
+    position: relative;
+}
+
+.about-msg {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3%;
+}
+
+.about-hide {
+    display: none;
+}
+
+.rectangle-divM {
+    background-image: linear-gradient(to right, #D22626, #691313);
+    height: 85px;
+    display: block
+}
+
+.rectangle-div {
+    display: none;
+}
+
+.years {
+    font-size: xx-small;
+    font-weight: 900;
+}
+.section-red-backgrnd h2{
+    padding-right: 20%;
+}
+.form-select{
+    font-size: 1.5rem;
+}
+.formA {
+    margin-left: 0;
+  }
+.font {
+    font-size: large;
+}
+.red-line {
+    width: 84%;
+    margin-left: 9%;
+}
+.polygon-img {
+    width: 5%;
+    right: 64px;
+}
+.clr-line3 {
+    bottom: 22px;
+}
+.award-media {
+    font-size: x-large;
+    text-align: center;
+}
+.logo-sec{
+    width: 96%;
+    height: 132px;
+    margin-top: 10%;
+}
+.so-div{
+    z-index: 1;
+    margin-top: 7%;
+
+   }
+.so-img{
+    width: 9%;
+}
+.free{
+    border-radius: 26px 26px 26px 29px;
+    left: 0;
+    width: 100%;
+   }
+   .free-content {
+    padding-left: 0;
+   }
+   .client-btn{
+    width: 90%;
+   }
+   .clr-line2{
+    bottom: 12px;
+    right: 0;
+   }
+   .client-photo{
+    width: 38%;
+    padding-top: 7%;
+}
+.addres {
+    width: 81%;
+}
+.del{
+    width: 80%;
+}
+.horizontal-line{
+    width: 24%;
+ left: 0;
+    bottom: 2px;
+
+}
+.demo{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    
+}
+.ctext{
+    font-size: small;
+}
+.card-title{
+    padding-left: 2%;
+}
+.video{
+    text-align: center;
+}
+
+.clr-line{
+    width: 57%;
+    margin-left: 23%;
+}
+.video-hide{
+    display: none;
+}
+.excite{
+    font-size: small;
+}
+.card-height{
+    height: 267px;
+    margin-top: 14%;
+}
+.horizontal-Cl{
+    margin-left: 50px;
+    border-bottom: 1px solid red;
+     width: 74%;
+    position: relative;
+    top: 24px;
+}
+.vdeo-3{
+    opacity: 0.5;
+}
+
+}
+
+@media screen and (min-width: 576px)and (max-width: 992px) {
+    .barbtn{
+        position: relative;
+        left: 180px;
+    } 
+    .logo1 {
+        width: 280px;
+        /* padding-left: 2%; */
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      .sidenav li a{
+        font-size: larger;
+        margin-left: 8%;
+        color: black;
+    }
+    .navbar-nav button{
+        width: 80%;
+        margin-top: 2%;
+        margin-left: 2%;
+        
+      }
+    .migrt-ph li {
+        position: relative;
+        right: 29px;
+            
+        }
+      
+      .sidenav a {
+        padding: 8px 0px 8px 5px;;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #D22626;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+  
+    .ctext{
+        font-size: large;
+    }
+    .cardt2 {
+        font-size: large;
+    }
+    .section-migrate {
+        right: 53px;
+        width: 113%;
+        overflow-x: hidden;
+    }
+    .dream {
+        width: 50%;
+        color: rgb(235, 235, 111);
+    }
+    
+.girl-img{
+        width: 28%;
+        margin-left: 27%;
+    }
+    .migrate-div{
+padding-left: 25px;
+    }
+.polygon-img{
+    width: 3%;
+    right: 80px;
+}
+.rectangle-divM {
+    background-image: linear-gradient(to right, #D22626, #691313);
+  right: 0;
+    padding-left: 12%;
+    height: 115px;
+    display: block;
+    margin-top: 7%;
+}
+    .award-media{
+        font-size: xx-large;
+    }
+.clr-line{
+    margin-top: 8%;
+}
+.clr-line3{
+    margin-top: 9%;
+}
+.info-img{
+    position: relative;
+  
+}
+.play-img {
+    left: 72px;
+    top: 296px;
+}
+.team-img {
+    width: 93%;
+}
+.about-msg{
+    margin-top: 7%;
+}
+.clr-div {
+    clip-path: polygon(0% 0, 993% 2%, 0 151%);
+    width: 100%;
+    height: 375px;
+}
+.years {
+    font-size: small;
+    font-weight: 900;
+    width: 62%;
+}
+.study-main {
+    position: absolute;
+    z-index: 1;
+}
+.study {
+    color: #fff;
+    font-size: 4vw;
+}
+.so-img{
+    width: 14%;
+}
+.logo-sec {
+    margin-top: 4%;
+}
+.addres {
+    width: 62%;
+}
+.video-hide{
+    display: none;
+}
+.demo{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    
+}
+
+  }
+  @media screen and (min-width: 993px)and (max-width: 1199px) {
+    .barbtn{
+        position: relative;
+        left: 280px;
+    } 
+    .migrt-ph li {
+        position: relative;
+        right: 29px;
+            
+        }
+        .navbar-light .navbar-toggler {
+            color: rgba(0,0,0,.55);
+            border-color: #fff;
+        }
+    .sidenav li a{
+        font-size: larger;
+        margin-left: 8%;
+        color: black;
+    }
+    .logo1{
+        width: 260px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 0px 8px 5px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+      }
+      .navbar-nav button{
+        width: 80%;
+        margin-top: 2%;
+        margin-left: 2%;
+        
+      }
+      
+      .sidenav a:hover {
+        color: #D22626;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    .section-migrate{
+        width: 108%;
+        right: 39px;
+    }
+    .migrate-div {
+        padding-left: 6%;
+    }
+    .clr-div {
+        clip-path: polygon(0% 0, 993% 2%, 0 151%);
+        width: 100%;
+        height: 375px;
+    }
+    .study-main {
+        position: absolute;
+        z-index: 1;
+    }
+    .study {
+        color: #fff;
+        font-size: 4vw;
+    }
+    .girl-img{
+        width: 42%;
+        margin-left: 78%;
+    }
+    .play-img {
+        left: 92px;
+        top:333px;
+    }
+    .rectangle-div{
+        width: 53%;
+        padding-left: 2%;
+    }
+    .info-img{
+        position: relative;
+        padding-top: 15%;
+    }
+    .award-media{
+        font-size: xx-large;
+    }
+    .so-img{
+        width: 14%;
+    }
+    .addres{
+        width: 68%;
+    }
+    .horizontal-line{
+        width: 24%;
+        bottom: -1px;
+    }
+    }
+    @media screen and (min-width: 1200px)and (max-width: 1299px){
+        .girl-img {
+            left: 212px;
+            top: 89px;
+        }
+        .play-img{
+            left: 120px;
+            top: 376px;
+        }
+        .info-img{
+            position: relative;
+            padding-top: 5%;
+        }
+        .so-img{
+            width: 14%;
+        }
+        .award-media{
+            font-size: xx-large;
+        }
+        .years {
+            font-size: small;
+            font-weight: 900;
+            width: 79%;
+        }
+        .addres{
+            width: 50%;
+        }
+        }
