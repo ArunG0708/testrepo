@@ -455,7 +455,7 @@ color: #fff;
 .accordion-button::after {
     flex-shrink: 0;
     content: "";
-    background-image: url('imgs/Down Arrow.svg');
+    background-image: url('../imgs/Down Arrow.svg');
     background-repeat: no-repeat;
     background-size: 1.25rem;
     transition: transform .2s ease-in-out;
@@ -481,7 +481,7 @@ color: #fff;
     font-size: 2rem;
     font-weight: bold;
     color: black;
-    background-image: url('imgs/downward-arrow.png');
+    background-image: url('../imgs/downward-arrow.png');
      border-radius: 29px;
 }
 
