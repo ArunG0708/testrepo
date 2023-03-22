@@ -198,8 +198,7 @@
 .so-div{
     z-index: 1;
     margin-top: 7%;
-
-   }
+ }
 .so-img{
     width: 9%;
 }
@@ -274,6 +273,10 @@
 }
 .vdeo-3{
     opacity: 0.5;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
 }
 
 }
@@ -437,8 +440,11 @@ padding-left: 25px;
     overflow-y: hidden;
     white-space: nowrap;
     scroll-behavior: smooth;
-    
-}
+    }
+    .accordion-button:focus {
+        box-shadow: none;
+        border-color: rgba(0,0,0,.125);
+    }
 
   }
   @media screen and (min-width: 993px)and (max-width: 1199px) {
@@ -553,6 +559,10 @@ padding-left: 25px;
     .horizontal-line{
         width: 24%;
         bottom: -1px;
+    }
+    .accordion-button:focus {
+        box-shadow: none;
+        border-color: rgba(0,0,0,.125);
     }
     }
     @media screen and (min-width: 1200px)and (max-width: 1299px){
