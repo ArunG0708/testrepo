@@ -8,14 +8,66 @@
     width: 100%;
     z-index: 2;
     left: 0;
+    height: 62px;
+}
+.pett{
+    margin-top: 16%;
+}
+.dropdown:hover >.dropdown-menu{
+    display: block !important;
+  }
+  .dropdown-submenu:hover > .dropdown-menu{
+    display: block !important;
+      position: relative;
+      left: 50px;
+      background-color: #fff;
+  }
+  
+  .dropdown-item{
+    font-size: small; /* 13px */
+  }
+  .dropdown-toggle::after{
+    font-size: var(--font-md);
+    margin-bottom: -2px;
+  }
+  .dropdown-menu li a.active{
+    color:red;
+  }
+  
+  .custom-toggle-arrow{
+        font-size: 18px;
+        margin-top: 1px;
+        line-height: 10px;
+  }
+.logo-phn{
+    width: 54%;
+}
+.icon{
+    position: relative;
+    right: 30px;
+}
+.about-font{
+    font-weight:200;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+ float: right;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 13px solid;
+    border-right: 10px solid transparent;
+    border-bottom: 0;
+    border-left: 9px solid transparent;
 }
  .barbtn{
     position: relative;
-    left: 31px;
+    left: 18px;
 } 
 .navbar-light .navbar-toggler {
     color: #fff;
     border-color: #fff;
+    border: none;
 }
 
 .sidenav li a{
@@ -33,14 +85,14 @@
     left: 0;
     background-color: #fff;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
     padding-top: 60px;
   }
   
   .sidenav a {
-    padding: 8px 0px 8px 5px;;
+    padding: 8px 4px 8px 5px;;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -88,7 +140,7 @@
     z-index: 1;
 }
 .study-main button{
-    margin-left: -5%;
+    margin-left: -7%;
 }
 
 .study {
@@ -110,13 +162,11 @@
 .girl-img {
     width: 45%;
     left: 190px;
-    top: 48px;
-    height: 296px;
+    top: 70px;
+    height: 274px;
 }
 
-.more {
-    background-image: linear-gradient(to right, #D22626, #691313);
-   }
+
 .consult {
     background-image: linear-gradient(to right, #343434, #000000);
     margin-top: 5%;
@@ -125,11 +175,11 @@
 
 .play-img {
     left: 145px;
-    top: 387px;
+    top: -44px;
     width: 21%;
 }
 .ego-phn{
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 .team-img {
     width: 100%;
@@ -150,7 +200,7 @@
 
 .rectangle-divM {
     background-image: linear-gradient(to right, #D22626, #691313);
-    height: 85px;
+    text-align: center;
     display: block
 }
 
@@ -163,15 +213,19 @@
     font-weight: 900;
 }
 .section-red-backgrnd h2{
-    padding-right: 20%;
+    padding-right: 22%;
 }
 .form-select{
     font-size: 1.5rem;
-    background-size: 48px;
+    background-size: 30px;
+    margin-left: 2%;
 }
 .formA {
     margin-left: 0;
   }
+  .ab-form{
+    display: inline-block;
+} 
 .font {
     font-size: large;
 }
@@ -190,14 +244,10 @@
     font-size: x-large;
     text-align: center;
 }
-.logo-sec{
-    width: 96%;
-    height: 132px;
-    margin-top: 10%;
-}
+
 .so-div{
     z-index: 1;
-    margin-top: 7%;
+    /* margin-top: 7%; */
  }
 .so-img{
     width: 9%;
@@ -233,6 +283,12 @@
     bottom: 2px;
 
 }
+.video-img{
+    height: 240px;
+    width: 50%;
+    margin: 2%;
+}
+
 .demo{
     overflow-x: scroll;
     overflow-y: hidden;
@@ -278,21 +334,75 @@
     box-shadow: none;
     border-color: rgba(0,0,0,.125);
 }
+.top-footer .accordion-item{
+    margin: 2%;
+   
+}
 
 }
 
 @media screen and (min-width: 576px)and (max-width: 992px) {
     .barbtn{
         position: relative;
-        left: 180px;
-    } 
+        left: 78px;
+        font-size: x-large;
+        top: 8px;
+    }
+    .search-tab{
+        padding-top: 16px;
+    }
+    .icon{
+        position: relative;
+        right: 38px;
+    }
     .logo1 {
         width: 280px;
         /* padding-left: 2%; */
     }
+    .about-font{
+        font-weight:200;
+    }
+  
+    .dropdown:hover >.dropdown-menu{
+        display: block !important;
+      }
+      .dropdown-submenu:hover > .dropdown-menu{
+        display: block !important;
+          position: relative;
+          left: 50px;
+          background-color: #fff;
+      }
+      
+      .dropdown-item{
+        font-size: small; /* 13px */
+      }
+      .dropdown-toggle::after{
+        font-size: var(--font-md);
+        margin-bottom: -2px;
+      }
+      .dropdown-menu li a.active{
+        color:red;
+      }
+      
+      .custom-toggle-arrow{
+            font-size: 18px;
+            margin-top: 1px;
+            line-height: 10px;
+      }
+    .navstick{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        left: 0;
+        height: 89px;
+    }
     .navbar-light .navbar-toggler {
         color: #fff;
         border-color: #fff;
+    }
+    .logo-phn{
+        width: 54%;
     }
     .sidenav {
         height: 100%;
@@ -303,7 +413,7 @@
         left: 0;
         background-color: #fff;
         overflow-x: hidden;
-        transition: 0.5s;
+        transition: 0.3s;
         padding-top: 60px;
       }
       .sidenav li a{
@@ -377,8 +487,8 @@ padding-left: 25px;
 .rectangle-divM {
     background-image: linear-gradient(to right, #D22626, #691313);
   right: 0;
+  /* text-align: center; */
     padding-left: 12%;
-    height: 115px;
     display: block;
     margin-top: 7%;
 }
@@ -396,11 +506,15 @@ padding-left: 25px;
   
 }
 .play-img {
-    left: 72px;
-    top: 296px;
+    left: 81px;
+    top: -44px;
+    width: 31%;
 }
 .team-img {
     width: 93%;
+}
+.form-select{
+    background-size: 22px;
 }
 .about-msg{
     margin-top: 7%;
@@ -413,7 +527,7 @@ padding-left: 25px;
 .years {
     font-size: small;
     font-weight: 900;
-    width: 62%;
+    
 }
 .study-main {
     position: absolute;
@@ -435,6 +549,11 @@ padding-left: 25px;
 .video-hide{
     display: none;
 }
+.video-img{
+    height: 240px;
+    width: 50%;
+    margin: 2%;
+}
 .demo{
     overflow-x: scroll;
     overflow-y: hidden;
@@ -445,12 +564,13 @@ padding-left: 25px;
         box-shadow: none;
         border-color: rgba(0,0,0,.125);
     }
+   
 
   }
   @media screen and (min-width: 993px)and (max-width: 1199px) {
     .barbtn{
         position: relative;
-        left: 280px;
+        left: 217px;
     } 
     .migrt-ph li {
         position: relative;
@@ -466,8 +586,37 @@ padding-left: 25px;
         margin-left: 8%;
         color: black;
     }
+    .dropdown:hover >.dropdown-menu{
+        display: block !important;
+      }
+      .dropdown-submenu:hover > .dropdown-menu{
+        display: block !important;
+          position: relative;
+          left: 50px;
+          background-color: #fff;
+      }
+      
+      .dropdown-item{
+        font-size: small; /* 13px */
+      }
+      .dropdown-toggle::after{
+        font-size: var(--font-md);
+        margin-bottom: -2px;
+      }
+      .dropdown-menu li a.active{
+        color:red;
+      }
+      
+      .custom-toggle-arrow{
+            font-size: 18px;
+            margin-top: 1px;
+            line-height: 10px;
+      }
     .logo1{
         width: 260px;
+    }
+    .pett{
+        height: 300px;
     }
     .sidenav {
         height: 100%;
@@ -478,7 +627,7 @@ padding-left: 25px;
         left: 0;
         background-color: #fff;
         overflow-x: hidden;
-        transition: 0.5s;
+        transition: 0.3s;
         padding-top: 60px;
       }
       .card-height{
@@ -537,7 +686,7 @@ padding-left: 25px;
     }
     .play-img {
         left: 92px;
-        top:333px;
+        top:-54px;
     }
     .rectangle-div{
         width: 53%;
@@ -567,8 +716,9 @@ padding-left: 25px;
     }
     @media screen and (min-width: 1200px)and (max-width: 1299px){
         .girl-img {
-            left: 212px;
-            top: 89px;
+            left: 157px;
+            top: 64px;
+            width: 61%;
         }
         .play-img{
             left: 120px;
