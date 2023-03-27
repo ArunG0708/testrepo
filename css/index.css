@@ -345,12 +345,14 @@ color: #fff;
     position: relative;
     right: 61px;
     top: 66px;
+    width: 4%;
 }
 
 .right-arrow {
     position: relative;
     left: 62px;
     top: 66px;
+    width: 4%;
 }
 
 .sec-newsletter {
@@ -479,7 +481,7 @@ color: #fff;
     content: "";
     background-image: url('../imgs/Down Arrow.svg');
     background-repeat: no-repeat;
-    background-size: 1.25rem;
+    background-size: 1rem;
     transition: transform .2s ease-in-out;
 }
 .accordion-button:not(.collapsed) {

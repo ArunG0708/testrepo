@@ -33,6 +33,9 @@
   .dropdown-menu li a.active{
     color:red;
   }
+  .dropdown-menu li a{
+    font-size: 14px;
+  }
   
   .custom-toggle-arrow{
         font-size: 18px;
@@ -40,11 +43,12 @@
         line-height: 10px;
   }
 .logo-phn{
-    width: 54%;
+    /* width: 54%; */
 }
 .icon{
     position: relative;
-    right: 30px;
+    left: 170px;
+    bottom: 30px;
 }
 .about-font{
     font-weight:200;
@@ -54,11 +58,12 @@
     display: inline-block;
  float: right;
     vertical-align: 0.255em;
-    content: "";
+    /* content: ""; */
     border-top: 13px solid;
     border-right: 10px solid transparent;
     border-bottom: 0;
     border-left: 9px solid transparent;
+  
 }
  .barbtn{
     position: relative;
@@ -178,9 +183,7 @@
     top: -44px;
     width: 21%;
 }
-.ego-phn{
-    /* padding-left: 20px; */
-}
+
 .team-img {
     width: 100%;
 }
@@ -247,7 +250,7 @@
 
 .so-div{
     z-index: 1;
-    /* margin-top: 7%; */
+   text-align: center;
  }
 .so-img{
     width: 9%;
@@ -351,6 +354,9 @@
     .search-tab{
         padding-top: 16px;
     }
+    .serch{
+        width: 80%;
+    }
     .icon{
         position: relative;
         right: 38px;
@@ -383,6 +389,10 @@
       .dropdown-menu li a.active{
         color:red;
       }
+      .dropdown-menu li a{
+        border: none;
+        font-size: 12px;
+      }
       
       .custom-toggle-arrow{
             font-size: 18px;
@@ -402,7 +412,7 @@
         border-color: #fff;
     }
     .logo-phn{
-        width: 54%;
+        width: 80%;
     }
     .sidenav {
         height: 100%;
