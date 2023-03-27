@@ -53,7 +53,10 @@
     /* bottom: 30px; */
     float: right;
     background: none;
+    top: 0;
+    bottom: 0;
 }
+
 
 
 .about-font{
