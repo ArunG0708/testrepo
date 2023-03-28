@@ -16,8 +16,12 @@
     left: 4px;
     bottom: 3px;
 }
-  
-
+  .search-d{
+    cursor: pointer;
+  }
+.nav-link {
+padding: 10px;
+}
   .menu ul {
     list-style: none;
     position: relative;

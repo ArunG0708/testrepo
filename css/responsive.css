@@ -44,7 +44,7 @@
   }
   .serch{
     width: 85%;
-    border: 1px solid black;
+    border: 1px solid #fff;
   }
 
 .icon{
@@ -597,8 +597,23 @@ padding-left: 25px;
         right: 29px;
             
         }
+        .serch{
+            width: 85%;
+            border: 1px solid #fff;
+            margin-top: 2%;
+          }
+        
+        .icon{
+            position: relative;
+            left: -31px;
+            /* bottom: 30px; */
+            float: right;
+            background: none;
+            top: 0;
+            bottom: 0;
+        }
         .navbar-light .navbar-toggler {
-            color: rgba(0,0,0,.55);
+            color: #fff;
             border-color: #fff;
         }
     .sidenav li a{
@@ -742,7 +757,7 @@ padding-left: 25px;
         }
         .play-img{
             left: 120px;
-            top: 376px;
+            top: -55px;
         }
         .info-img{
             position: relative;
@@ -762,4 +777,58 @@ padding-left: 25px;
         .addres{
             width: 50%;
         }
+        .menu ul {
+            list-style: none;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            float: left;
+          }
+        
+          .menu ul a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding-top: 5px;
+          }
+          .menu ul li{
+            float: left;
+            position: relative;
+          }
+          .menu ul ul{
+            position: absolute;
+            background-color: #fff;
+            left:0;
+            display: none;
+            z-index: 1;
+          }
+          .menu ul ul li{
+            float: none;
+            width: 250px;
+          }
+          .menu ul ul ul{
+            left: 100%;
+            top: 0px;
+          }
+          .menu ul li:hover > ul{
+            display: block;
+            transition: 0.5s;
+          }
+          .submenu  li a:hover{
+            background: #D22626;
+          
+          }
+         
+          .menu ul li a:hover{
+        color: #fff;
+          }
+          .menu ul ul li:hover{
+            border-left: 3px solid #2c3e50;
+          }
+          .submenu li a{
+            color: black;
+            font-size: medium;
+            padding-top: 3%;
+            padding: 5%;
+          }
         }
