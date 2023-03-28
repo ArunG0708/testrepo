@@ -35,6 +35,8 @@
   }
   .dropdown-menu li a{
     font-size: 14px;
+    position: relative;
+    left: 32px;
   }
   
   .custom-toggle-arrow{
@@ -48,8 +50,9 @@
   }
 
 .icon{
-    position: relative;
-    left: -31px;
+    position: absolute;
+    /* position: relative;
+    left: -31px; */
     /* bottom: 30px; */
     float: right;
     background: none;
