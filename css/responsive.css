@@ -13,6 +13,9 @@
 .pett{
     margin-top: 16%;
 }
+.logo-phn{
+    width: 90%;
+}
 .dropdown:hover >.dropdown-menu{
     display: block !important;
   }
@@ -36,7 +39,7 @@
   .dropdown-menu li a{
     font-size: 14px;
     position: relative;
-    left: 32px;
+    left: 10px;
   }
   
   .custom-toggle-arrow{
@@ -56,8 +59,9 @@
     /* bottom: 30px; */
     float: right;
     background: none;
-    top: 0;
+    top: 4px;
     bottom: 0;
+    color: black;
 }
 
 .about-font{
@@ -144,9 +148,6 @@
         margin-left: 15px;
     }
 
-
-
-
 .consult {
     background-image: linear-gradient(to right, #343434, #000000);
     margin-top: 5%;
@@ -207,6 +208,7 @@
 } 
 .font {
     font-size: large;
+    margin-top: 2%;
 }
 .red-line {
     width: 84%;
