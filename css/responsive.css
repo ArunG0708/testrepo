@@ -57,8 +57,6 @@
     bottom: 0;
 }
 
-
-
 .about-font{
     font-weight:200;
 }
@@ -143,42 +141,7 @@
         margin-left: 15px;
     }
 
-/* .clr-div {
-    clip-path: polygon(0% 0, 993% 2%, 0 151%);
-    width: 100%;
-    height: 344px;
-} */
 
-.study-main {
-    position: absolute;
-    z-index: 1;
-}
-.study-main button{
-    margin-left: -7%;
-}
-
-.study {
-    color: #fff;
-    font-size: 2rem;
-    width: 20%;
-    margin-left: -8%;
-    margin-top: 9%;
-
-}
-
-.dream {
-    width: 50%;
-    color: rgb(235, 235, 111);
-    font-size: 16px;
-    margin-left: -7%;
-}
-
-.girl-img {
-    width: 45%;
-    left: 190px;
-    top: 70px;
-    height: 274px;
-}
 
 
 .consult {
@@ -486,15 +449,7 @@
         width: 113%;
         overflow-x: hidden;
     }
-    .dream {
-        width: 50%;
-        color: rgb(235, 235, 111);
-    }
-    
-.girl-img{
-        width: 28%;
-        margin-left: 27%;
-    }
+  
     .migrate-div{
 padding-left: 25px;
     }
@@ -651,9 +606,7 @@ padding-left: 25px;
     .logo1{
         width: 260px;
     }
-    .pett{
-        height: 300px;
-    }
+    
     .sidenav {
         height: 100%;
         width: 0;
@@ -673,7 +626,7 @@ padding-left: 25px;
       .sidenav a {
         padding: 8px 0px 8px 5px;
         text-decoration: none;
-        font-size: 25px;
+        /* font-size: 25px; */
         color: black;
         display: block;
         transition: 0.3s;
@@ -703,23 +656,7 @@ padding-left: 25px;
     .migrate-div {
         padding-left: 6%;
     }
-    .clr-div {
-        clip-path: polygon(0% 0, 993% 2%, 0 151%);
-        width: 100%;
-        height: 375px;
-    }
-    .study-main {
-        position: absolute;
-        z-index: 1;
-    }
-    .study {
-        color: #fff;
-        font-size: 4vw;
-    }
-    .girl-img{
-        width: 42%;
-        margin-left: 78%;
-    }
+   
     .play-img {
         left: 92px;
         top:-54px;
@@ -751,11 +688,7 @@ padding-left: 25px;
     }
     }
     @media screen and (min-width: 1200px)and (max-width: 1299px){
-        .girl-img {
-            left: 157px;
-            top: 64px;
-            width: 61%;
-        }
+        
         .play-img{
             left: 120px;
             top: -55px;
