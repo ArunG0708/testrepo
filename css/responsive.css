@@ -61,7 +61,7 @@
     background: none;
     top: 4px;
     bottom: 0;
-    color: black;
+    color: gray;
 }
 
 .about-font{
@@ -207,7 +207,7 @@
     margin-left: 0;
   }
   .ab-form{
-    display: inline-block;
+    display: inline-flex;
 } 
 .font {
     font-size: large;
@@ -335,7 +335,7 @@
   
     .serch{
         width: 80%;
-        margin-left: 4%;
+        margin-left: 7%;
         margin-top: 5%;
     }
     
@@ -408,7 +408,7 @@
         transition: 0.3s;
         padding-top: 60px;
       }
-      .sidenav li a{
+ .sidenav li a{
         font-size: larger;
         margin-left: 8%;
         color: black;
@@ -696,7 +696,11 @@ padding-left: 25px;
     }
     }
     @media screen and (min-width: 1200px)and (max-width: 1299px){
-        
+        .girl-img{
+            width: 61%;
+            margin-left: -24%;
+          
+        }
         .play-img{
             left: 120px;
             top: -55px;
