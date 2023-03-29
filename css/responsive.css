@@ -335,13 +335,14 @@
   
     .serch{
         width: 80%;
-        margin-left: 7%;
         margin-top: 5%;
-    }
-    
-    .icon{
         position: relative;
-        right: 38px;
+    left: 53px;
+}
+    
+     .icon{
+        position: relative;
+        /* right: 38px; */
     }
     .logo1 {
         width: 280px;
@@ -406,7 +407,7 @@
         background-color: #fff;
         overflow-x: hidden;
         transition: 0.3s;
-        padding-top: 60px;
+        padding-top: 59px;
       }
  .sidenav li a{
         font-size: larger;
@@ -536,6 +537,9 @@ padding-left: 25px;
 .horizontal-lineWhite{
 width: 68%;
 }
+.horizontal-line {
+left: 45px;
+}
 .video-hide{
     display: none;
 }
@@ -561,18 +565,40 @@ width: 68%;
     .barbtn{
         position: relative;
         left: 217px;
+        top: 10px;
     } 
     .migrt-ph li {
         position: relative;
         right: 29px;
             
         }
+        .navstick{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 2;
+            left: 0;
+            height: 89px;
+        }
+        .search-tab{
+            margin-top: 3%;
+            margin-left: 22%;
+            position: relative;
+            left: 28px;
+            width: 101%;
+        }
+        .icon{
+            margin-top: 2%;
+        }
         .serch{
             width: 85%;
             border: 1px solid #fff;
             margin-top: 2%;
+            padding: 6px;
           }
-        
+          .logo-phn{
+            width: 87%;
+        }
         .icon{
             position: relative;
             left: -31px;
