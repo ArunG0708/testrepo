@@ -528,7 +528,13 @@ padding-left: 25px;
     margin-top: 4%;
 }
 .addres {
-    width: 62%;
+    width: 69%;
+}
+.del{
+    width: 69%;
+}
+.horizontal-lineWhite{
+width: 68%;
 }
 .video-hide{
     display: none;
