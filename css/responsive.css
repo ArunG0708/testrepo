@@ -147,7 +147,10 @@
         width: 180px;
         margin-left: 15px;
     }
-
+.overfY {
+    overflow-y: scroll;
+    height: 170px;
+}
 .consult {
     background-image: linear-gradient(to right, #343434, #000000);
     margin-top: 5%;
