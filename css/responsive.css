@@ -597,7 +597,7 @@ left: 45px;
             padding: 6px;
           }
           .logo-phn{
-            width: 87%;
+            width: 82%;
         }
         .icon{
             position: relative;
@@ -703,7 +703,7 @@ left: 45px;
     }
     .rectangle-div{
         width: 53%;
-        padding-left: 2%;
+        padding-left: 4%;
     }
     .info-img{
         position: relative;
@@ -727,7 +727,7 @@ left: 45px;
         border-color: rgba(0,0,0,.125);
     }
     }
-    @media screen and (min-width: 1200px)and (max-width: 1299px){
+    @media screen and (min-width: 1200px)and (max-width: 1399px){
         .girl-img{
             width: 61%;
             margin-left: -24%;

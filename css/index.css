@@ -484,7 +484,7 @@ color: #fff;
 .accordion-button::after {
     flex-shrink: 0;
     content: "";
-    background-image: url('../imgs/Down Arrow.svg');
+    background-image: url('../imgs/DownArrow.svg');
     background-repeat: no-repeat;
     background-size: 1rem;
     transition: transform .2s ease-in-out;
@@ -519,7 +519,19 @@ color: #fff;
     border-color: rgba(0,0,0,.125);
 }
 
+.carousel-control-prev-icon {
+    background-image: url('/imgs/Polygon-1.svg');
+    margin-left: 20%;
+}
 
+.carousel-control-next-icon {
+    background-image: url('/imgs/Polygon3.svg');
+    margin-right: 22%;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../imgs/DownArrow.svg');
+    transform: rotate(-180deg);
+}
 
 
 
