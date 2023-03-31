@@ -3,6 +3,14 @@
     box-sizing: border-box;
    
 }
+.back_to_top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    /* display: none; */
+    background-color: #D22626;
+    color: #fff;
+}
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -80,7 +88,7 @@ color: #fff;
         display: inline-block;
       
     }          
-             
+            
 .study {
     color: #D22626;
     font-weight: bolder;
@@ -195,7 +203,9 @@ color: #fff;
     position: absolute;
     left: 0;
 }
-
+.assesment-form {
+       padding-bottom: 3%; 
+}
 .everyone {
     color: #D22626;
 }
@@ -286,7 +296,7 @@ color: #fff;
 .ctext1 {
     font-size: small;
     font-weight: 500;
-    /* width: 540px; */
+  line-height: 22px;
 }
 
 .cardt2 {

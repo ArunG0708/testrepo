@@ -16,31 +16,29 @@
 .logo-phn{
     width: 90%;
 }
-.dropdown:hover >.dropdown-menu{
-    display: block !important;
+
+  .submenu li a {
+padding: 0;
+line-height: 25px;
   }
-  .dropdown-submenu:hover > .dropdown-menu{
-    display: block !important;
-      position: relative;
-      left: 50px;
-      background-color: #fff;
-  }
-  
-  .dropdown-item{
-    font-size: small; /* 13px */
-  }
-  .dropdown-toggle::after{
-    font-size: var(--font-md);
-    margin-bottom: -2px;
-  }
-  .dropdown-menu li a.active{
-    color:red;
-  }
-  .dropdown-menu li a{
-    font-size: 14px;
+  .dropdown-menu li{
     position: relative;
-    left: 10px;
-  }
+}
+.dropdown-menu .submenu{ 
+    /* display: none;
+    position: absolute;
+    left:100%; top:-7px; */
+    position: relative;
+    left: 40px;
+}
+.dropdown-menu .submenu-left{ 
+    right:100%; left:auto;
+}
+
+.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+.dropdown-menu > li:hover > .submenu{
+    display: block;
+}
   
   .custom-toggle-arrow{
         font-size: 18px;
@@ -54,14 +52,12 @@
 
 .icon{
     position: absolute;
-    /* position: relative;
-    left: -31px; */
-    /* bottom: 30px; */
     float: right;
     background: none;
     top: 4px;
     bottom: 0;
     color: gray;
+    background-color: #fff;
 }
 
 .about-font{
@@ -143,6 +139,10 @@
     right: 29px;
         
     }
+    .migrt-ph li ul a{
+        position: relative;
+        left: 22px;
+    }
     .logo1{
         width: 180px;
         margin-left: 15px;
@@ -150,6 +150,7 @@
 .overfY {
     overflow-y: scroll;
     height: 170px;
+    overflow-x: hidden;
 }
 .consult {
     background-image: linear-gradient(to right, #343434, #000000);
@@ -174,6 +175,9 @@
     width: 100%;
     margin-left: 0;
     margin-top: -2%;
+}
+.assesment-form {
+    padding-top: 5%;
 }
 
 .about-hide {
@@ -212,6 +216,7 @@
 .font {
     font-size: large;
     margin-top: 2%;
+    line-height: 12px;
 }
 .red-line {
     width: 84%;
@@ -381,6 +386,7 @@
             font-size: 18px;
             margin-top: 1px;
             line-height: 10px;
+            margin-right: 4px;
       }
     .navstick{
         position: fixed;
@@ -557,6 +563,7 @@ left: 45px;
     .accordion-button:focus {
         box-shadow: none;
         border-color: rgba(0,0,0,.125);
+        
     }
    
 
