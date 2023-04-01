@@ -103,7 +103,7 @@ line-height: 25px;
     transition: 0.3s;
     padding-top: 60px;
   }
-  
+
   .sidenav a {
     padding: 8px 4px 8px 5px;;
     text-decoration: none;
@@ -115,8 +115,11 @@ line-height: 25px;
   
   .sidenav a:hover {
     color: #D22626;
+    
   }
-  
+.dropdown-submenu ul li a:hover{
+color: #fff;
+}
    .closebtn {
     position: absolute;
     top: 0;
@@ -142,6 +145,7 @@ line-height: 25px;
     .migrt-ph li ul a{
         position: relative;
         left: 22px;
+      
     }
     .logo1{
         width: 180px;

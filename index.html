@@ -15,7 +15,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="js/index.js">
+  <script src="js/sero.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,7 +62,7 @@
                     <ul class="d-block d-md-block d-lg-block d-xl-none migrt-ph" style="list-style: none;">
                       <li class="nav-item dropdown">
                         <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                          aria-expanded="false" style="font-size: 16px;line-height: 28px;">
+                          aria-expanded="false" style="font-size: 16px;line-height: 28px; ">
                           About Us<span class="float-end custom-toggle-arrow">&#62</span>
                         </a>
 
@@ -98,7 +98,7 @@
                           <li class="dropdown-submenu">
                             <a class="dropdown-item" href="#"> Canada<span class=" custom-toggle-arrow"
                                 style="float: right;">&#187</span></a>
-                            <ul class="submenu dropdown-menu overfY " style="font-size: 10px;border: none">
+                            <ul class="submenu dropdown-menu overfY " style="font-size: 10px;border: none;" >
                               <li><a class="dropdown-item" href="#">Immigrate to canada</a></li>
                               <li><a class="dropdown-item" href="#">Canada Express Entry</a></li>
                               <li><a class="dropdown-item" href="#">Latest Express Entry Draw</a></li>
@@ -1440,74 +1440,7 @@
       onclick="demo()"></i></a>
 
 
-  <script>
-  const openNav = () => {
-    console.log('Arun');
-    document.getElementById("mySidenav").style.width = "390px";
-  }
-
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
-
-
-    document.addEventListener("DOMContentLoaded", function () {
-
-      /////// Prevent closing from click inside dropdown
-      document.querySelectorAll('.dropdown-menu').forEach(function (element) {
-        element.addEventListener('click', function (e) {
-          e.stopPropagation();
-        });
-      })
-
-
-
-      // make it as accordion for smaller screens
-      if (window.innerWidth < 992) {
-
-        // close all inner dropdowns when parent is closed
-        document.querySelectorAll('.navbar .dropdown').forEach(function (everydropdown) {
-          everydropdown.addEventListener('hidden.bs.dropdown', function () {
-            // after dropdown is hidden, then find all submenus
-            this.querySelectorAll('.submenu').forEach(function (everysubmenu) {
-              // hide every submenu as well
-              everysubmenu.style.display = 'none';
-            });
-          })
-        });
-
-        document.querySelectorAll('.dropdown-menu a').forEach(function (element) {
-          element.addEventListener('click', function (e) {
-
-            let nextEl = this.nextElementSibling;
-            if (nextEl && nextEl.classList.contains('submenu')) {
-              // prevent opening link if link needs to open dropdown
-              e.preventDefault();
-              console.log(nextEl);
-              if (nextEl.style.display == 'block') {
-                nextEl.style.display = 'none';
-              } else {
-                nextEl.style.display = 'block';
-              }
-
-            }
-          });
-        })
-      }
-      // end if innerWidth
-
-    });
-
-    // for scrolltop
-    function demo() {
-    
-    const element = document.querySelector(body);
-    element.scrollTop > 50;
-   
-  }
-
-
-  </script>
+ 
 
 
 
