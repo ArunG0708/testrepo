@@ -214,10 +214,12 @@ color: #fff;
     margin-left: 10%;
     width: 75%;
 }
-
+.about-nationwide{
+    background-color: #F2F2F2;
+}
 .formA {
     border-radius: 22px;
-    /* width: 82%; */
+    background-color: #F2F2F2;
     margin-left: 6%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

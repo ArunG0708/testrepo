@@ -19,7 +19,7 @@
 
   .submenu li a {
 padding: 0;
-line-height: 25px;
+line-height: 27px;
   }
   .dropdown-menu li{
     position: relative;
@@ -144,7 +144,7 @@ color: #fff;
     }
     .migrt-ph li ul a{
         position: relative;
-        left: 22px;
+        left: 34px;
       
     }
     .logo1{
@@ -447,9 +447,6 @@ color: #fff;
         transition: 0.3s;
       }
       
-      /* .sidenav a:hover {
-        color: #D22626;
-      } */
       
       .sidenav .closebtn {
         position: absolute;
@@ -515,6 +512,9 @@ padding-left: 25px;
 }
 .about-msg{
     margin-top: 7%;
+}
+.reach{
+    margin-top: 4%;
 }
 .clr-div {
     clip-path: polygon(0% 0, 993% 2%, 0 151%);
