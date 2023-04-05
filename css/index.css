@@ -184,8 +184,12 @@ color: #fff;
     position: relative;
     right: 272px;
     top: 182px;
+    
 }
-
+.play-img:hover{
+    transform: scale(1.5);
+    transition: transform .3s;
+}
 .rectangle-div {
     background-image: linear-gradient(to right, #D22626, #691313);
     position: absolute;
