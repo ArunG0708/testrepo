@@ -3,13 +3,17 @@
     box-sizing: border-box;
    
 }
-.back_to_top {
+#myBtn{
     position: fixed;
     bottom: 25px;
     right: 25px;
-    /* display: none; */
+border: none;
     background-color: #D22626;
     color: #fff;
+    display: none;
+    z-index: 99;
+  
+    
 }
 .down {
     transform: rotate(45deg);
