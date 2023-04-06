@@ -213,12 +213,9 @@ color: #fff;
 .formA {
     margin-left: 0;
   }
-  .ab-form{
-    display: inline-flex;
-    
-} 
+  
 .indph{
-    margin-top: 6px;
+    /* margin-top: 6px; */
 }
 .font {
     font-size: large;
