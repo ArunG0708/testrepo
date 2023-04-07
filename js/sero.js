@@ -21,7 +21,7 @@ function closeNav() {
 
 
     // make it as accordion for smaller screens
-    if (window.innerWidth < 992) {
+    if (window.innerWidth < 1100) {
 
       // close all inner dropdowns when parent is closed
       document.querySelectorAll('.navbar .dropdown').forEach(function (everydropdown) {

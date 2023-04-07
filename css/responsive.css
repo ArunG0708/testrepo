@@ -214,9 +214,7 @@ color: #fff;
     margin-left: 0;
   }
   
-.indph{
-    /* margin-top: 6px; */
-}
+
 .font {
     font-size: large;
     margin-top: 2%;
@@ -407,7 +405,7 @@ color: #fff;
         border-color: #fff;
     }
     .logo-phn{
-        width: 80%;
+        width: 78%;
     }
     .sidenav {
         height: 100%;
@@ -509,6 +507,7 @@ padding-left: 25px;
 }
 .form-select{
     background-size: 22px;
+    margin-left: 0;
 }
 .about-msg{
     margin-top: 7%;
@@ -630,32 +629,33 @@ left: 45px;
         margin-left: 8%;
         color: black;
     }
-    .dropdown:hover >.dropdown-menu{
-        display: block !important;
-      }
-      .dropdown-submenu:hover > .dropdown-menu{
-        display: block !important;
-          position: relative;
-          left: 50px;
-          background-color: #fff;
-      }
-      
-      .dropdown-item{
-        font-size: small; /* 13px */
-      }
-      .dropdown-toggle::after{
-        font-size: var(--font-md);
-        margin-bottom: -2px;
-      }
-      .dropdown-menu li a.active{
-        color:red;
-      }
+   
+      .dropdown-menu li{
+        position: relative;
+    }
+    .dropdown-menu .submenu{ 
+      position: relative;
+        left: 40px;
+    }
+    .dropdown-menu .submenu-left{ 
+        right:100%; left:auto;
+    }
+    
+    .dropdown-menu > li:hover{ background-color: #f1f1f1 }
+    .dropdown-menu > li:hover > .submenu{
+        display: block;
+    }
       
       .custom-toggle-arrow{
             font-size: 18px;
             margin-top: 1px;
             line-height: 10px;
       }
+      .overfY {
+        overflow-y: scroll;
+        height: 170px;
+        overflow-x: hidden;
+    }
     .logo1{
         width: 260px;
     }
@@ -690,7 +690,9 @@ left: 45px;
         margin-left: 2%;
         
       }
-      
+      .dropdown-submenu ul li a:hover{
+        color: #fff;
+        }
       .sidenav a:hover {
         color: #D22626;
       }
