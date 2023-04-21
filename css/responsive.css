@@ -190,7 +190,7 @@ color: #fff;
 .rectangle-divM {
     background-image: linear-gradient(to right, #D22626, #691313);
     text-align: center;
-    display: block
+    /* display: block; */
 }
 
 .rectangle-div {
@@ -481,7 +481,7 @@ padding-left: 25px;
   right: 0;
   /* text-align: center; */
     padding-left: 12%;
-    display: block;
+    /* display: block; */
     margin-top: 7%;
 }
     .award-media{
