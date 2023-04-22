@@ -349,7 +349,7 @@ color: #fff;
     
      .icon{
         position: relative;
-        /* right: 38px; */
+       
     }
     .logo1 {
         width: 280px;
@@ -588,7 +588,7 @@ left: 45px;
             position: fixed;
             top: 0;
             width: 100%;
-            z-index: 2;
+            z-index: 200;
             left: 0;
             height: 89px;
         }
@@ -748,6 +748,9 @@ left: 45px;
             margin-left: -24%;
           
         }
+        .navbar{
+            width: 113%;
+        }
         .play-img{
             left: 120px;
             top: -55px;
@@ -816,7 +819,7 @@ left: 45px;
         color: #fff;
           }
           .menu ul ul li:hover{
-            border-left: 3px solid #2c3e50;
+            /* border-left: 3px solid #2c3e50; */
           }
           .submenu li a{
             color: black;
@@ -824,4 +827,16 @@ left: 45px;
             padding-top: 3%;
             padding: 5%;
           }
+        }
+        @media screen and (min-width: 1400px)and (max-width: 1699px){
+            .girl-img{
+                width: 53%;
+                margin-left: -24%;
+              
+            }
+            .info-img{
+                position: relative;
+                padding-top: 5%;
+            }
+
         }
