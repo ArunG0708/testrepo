@@ -65,13 +65,13 @@ line-height: 27px;
 
 .dropdown-toggle::after {
     display: inline-block;
- float: right;
-    vertical-align: 0.255em;
+vertical-align: 0.255em;
     /* content: ""; */
     border-top: 13px solid;
     border-right: 10px solid transparent;
     border-bottom: 0;
     border-left: 9px solid transparent;
+    float: right;
   
 }
  .barbtn{
@@ -251,12 +251,20 @@ color: #fff;
    .free-content {
     padding-left: 0;
    }
-   .client-btn{
+   .client-viewbtn{
+    padding: 6px;
+    width: 50%;
+}
+.free-content .client-btn{
     width: 90%;
-   }
+    margin-left: 5%;
+}
    .clr-line2{
     bottom: 12px;
     right: 0;
+   }
+   .clr-line3{
+    margin-top: 0;
    }
    .client-photo{
     width: 38%;
@@ -275,9 +283,11 @@ color: #fff;
 
 }
 .video-img{
-    height: 240px;
-    width: 50%;
+    height: 260px;
     margin: 2%;
+}
+.slick-next {
+    display: none;
 }
 
 .demo{
@@ -288,8 +298,10 @@ color: #fff;
     
 }
 .ctext{
-    font-size: small;
+    font-size: 12px;
+    padding: 6px;
 }
+
 .card-title{
     padding-left: 2%;
 }
@@ -318,9 +330,7 @@ color: #fff;
     position: relative;
     top: 24px;
 }
-.vdeo-3{
-    opacity: 0.5;
-}
+
 .accordion-button:focus {
     box-shadow: none;
     border-color: rgba(0,0,0,.125);
@@ -328,6 +338,9 @@ color: #fff;
 .top-footer .accordion-item{
     margin: 2%;
    
+}
+.australia-btn{
+    margin-top: 3%;
 }
 
 }
@@ -344,7 +357,7 @@ color: #fff;
         width: 80%;
         margin-top: 5%;
         position: relative;
-    left: 53px;
+        left: 53px;
 }
     
      .icon{
@@ -482,7 +495,6 @@ padding-left: 25px;
 .rectangle-divM {
     background-image: linear-gradient(to right, #D22626, #691313);
   right: 0;
-  /* text-align: center; */
     padding-left: 12%;
     /* display: block; */
     margin-top: 7%;
@@ -540,6 +552,9 @@ padding-left: 25px;
 .so-img{
     width: 14%;
 }
+.so-div{
+    margin-top: 12px;
+}
 .logo-sec {
     margin-top: 4%;
 }
@@ -560,23 +575,15 @@ left: 45px;
 }
 .video-img{
     height: 240px;
-    width: 50%;
+    /* width: 50%; */
     margin: 2%;
 }
-.demo{
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    }
-    .accordion-button:focus {
+ .accordion-button:focus {
         box-shadow: none;
         border-color: rgba(0,0,0,.125);
         
     }
-   
-
-  }
+    }
   @media screen and (min-width: 993px)and (max-width: 1199px) {
     .barbtn{
         position: relative;
@@ -728,6 +735,9 @@ left: 45px;
         position: relative;
         padding-top: 15%;
     }
+    .years{
+        width: 120%;
+    }
     .award-media{
         font-size: xx-large;
     }
@@ -772,7 +782,7 @@ left: 45px;
         .years {
             font-size: small;
             font-weight: 900;
-            width: 79%;
+            width: 120%;
         }
         .addres{
             width: 50%;
@@ -822,9 +832,7 @@ left: 45px;
           .menu ul li a:hover{
         color: #fff;
           }
-          .menu ul ul li:hover{
-            /* border-left: 3px solid #2c3e50; */
-          }
+         
           .submenu li a{
             color: black;
             font-size: medium;
@@ -842,5 +850,11 @@ left: 45px;
                 position: relative;
                 padding-top: 5%;
             }
+           .seeking{
+            width: 128%;
+           }
+           .addres{
+            width: 50%;
+        }
 
         }
