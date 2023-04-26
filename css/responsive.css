@@ -6,7 +6,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 200;
     left: 0;
     height: 62px;
 }
@@ -272,6 +272,7 @@ color: #fff;
 }
 .addres {
     width: 81%;
+    margin-left: 10%;
 }
 .del{
     width: 80%;
@@ -412,7 +413,7 @@ color: #fff;
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 2;
+        z-index: 200;
         left: 0;
         height: 89px;
     }
@@ -471,10 +472,10 @@ color: #fff;
       }
   
     .ctext{
-        font-size: large;
+        font-size: 15px;
     }
     .cardt2 {
-        font-size: large;
+        font-size: 17px;
     }
     .section-migrate {
         right: 53px;
