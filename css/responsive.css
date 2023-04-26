@@ -259,6 +259,11 @@ color: #fff;
     width: 90%;
     margin-left: 5%;
 }
+.freecic2{
+    width: 12%;
+    left: 60px;
+   
+}
    .clr-line2{
     bottom: 12px;
     right: 0;
@@ -472,7 +477,8 @@ color: #fff;
       }
   
     .ctext{
-        font-size: 15px;
+        font-size: 13px;
+    line-height: 1.3;
     }
     .cardt2 {
         font-size: 17px;
@@ -748,6 +754,11 @@ left: 45px;
     .addres{
         width: 68%;
     }
+    .freecic2{
+        width: 12%;
+        left: 60px;
+       
+    }
     .horizontal-line{
         width: 24%;
         bottom: -1px;
@@ -787,6 +798,11 @@ left: 45px;
         }
         .addres{
             width: 50%;
+        }
+        .freecic2{
+            width: 12%;
+            left: 120px;
+           
         }
         .menu ul {
             list-style: none;
