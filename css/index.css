@@ -286,7 +286,7 @@
 }
 
 .main-form button:hover {
-    background-color: gray;
+    background-image: linear-gradient(#D22626, #691313);
 }
 
 .section-red-backgrnd {
@@ -381,7 +381,6 @@
 
 .video-img {
     border-radius: 22px;
-    /* width: 19%; */
     height: 390px;
 
 }
@@ -419,6 +418,9 @@
     padding: 6px;
     width: 50%;
 }
+.client-viewbtn:hover{
+    background-image: linear-gradient(to right, #D22626, #691313);
+}
 
 .free-content .client-btn {
     background-color: #D22626;
@@ -428,6 +430,10 @@
     padding: 6px;
     width: 54%;
     margin-left: 12%;
+}
+.free-content .client-btn:hover{
+    background-image: linear-gradient(to right, #D22626, #691313);
+
 }
 
 .left-arrow {
