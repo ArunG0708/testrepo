@@ -519,6 +519,7 @@
 
 .free {
     border-radius: 2px 26px 26px 1px;
+    background-color: #F2F2F2;
     /* position: absolute; */
     left: 0;
     width: 103%;
