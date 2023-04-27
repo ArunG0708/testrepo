@@ -535,9 +535,7 @@ padding-left: 25px;
 .about-msg{
     margin-top: 7%;
 }
-.reach{
-    margin-top: 4%;
-}
+
 .clr-div {
     clip-path: polygon(0% 0, 993% 2%, 0 151%);
     width: 100%;
@@ -760,8 +758,9 @@ left: 45px;
        
     }
     .horizontal-line{
-        width: 24%;
-        bottom: -1px;
+        width: 19%;
+        bottom: 0px;
+        margin-left: 4px;
     }
     .accordion-button:focus {
         box-shadow: none;
@@ -856,6 +855,16 @@ left: 45px;
             padding-top: 3%;
             padding: 5%;
           }
+          .horizontal-line {
+            margin-left: 8px;
+            width: 18%;
+            bottom: 2px;
+          }
+          .clr-line{
+            margin-top: 6%;
+          }
+            
+        
         }
         @media screen and (min-width: 1400px)and (max-width: 1699px){
             .girl-img{
@@ -876,6 +885,7 @@ left: 45px;
         .horizontal-line {
             margin-left: 24px;
             width: 15%;
+            bottom: 2px;
             
         }
         .form-select{
