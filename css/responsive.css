@@ -427,7 +427,7 @@ color: #fff;
         border-color: #fff;
     }
     .logo-phn{
-        width: 78%;
+        width: 72%;
     }
     .sidenav {
         height: 100%;
@@ -877,6 +877,9 @@ left: 45px;
             margin-left: 24px;
             width: 15%;
             
+        }
+        .form-select{
+            margin-left: 19%;
         }
 
         }
