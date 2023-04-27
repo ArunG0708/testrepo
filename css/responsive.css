@@ -873,5 +873,10 @@ left: 45px;
            .addres{
             width: 40%;
         }
+        .horizontal-line {
+            margin-left: 24px;
+            width: 15%;
+            
+        }
 
         }

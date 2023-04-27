@@ -231,7 +231,7 @@
 .assesment-form {
     padding-bottom: 3%;
     margin-top: 5%;
-    background-color: #F2F2F2;
+    /* background-color: #F2F2F2; */
 }
 
 .everyone {
@@ -244,7 +244,7 @@
 }
 
 .about-nationwide {
-    /* background-color: #F2F2F2; */
+    background-color: #F2F2F2;
     padding-top: 12px;
 }
 
@@ -546,7 +546,7 @@
     border-bottom: 1px solid grey;
     width: 33%;
     position: relative;
-    bottom: 5px;
+    /* bottom: 5px; */
 }
 
 .free-content {
@@ -622,12 +622,12 @@
 }
 
 .carousel-control-prev-icon {
-    background-image: url('/imgs/Polygon-1.svg');
+    background-image: url('../imgs/Polygon-1.svg');
     margin-left: 20%;
 }
 
 .carousel-control-next-icon {
-    background-image: url('/imgs/Polygon3.svg');
+    background-image: url('../imgs/Polygon3.svg');
     margin-right: 22%;
 }
 
