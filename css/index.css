@@ -465,7 +465,7 @@
     color: white;
     padding: 8px 20px 8px 19px;
     border-radius: 29px;
-    /* width: 80%; */
+   border: none;
 }
 
 #place {
