@@ -364,6 +364,7 @@
 .cardshadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
     margin-top: 14px;
+    background-color: #F2F2F2;
 
 }
 
@@ -406,7 +407,7 @@
 
 .client-img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 87%;
+margin-top: 4px;
 }
 
 .client-msg {
@@ -546,7 +547,9 @@
     left: 66px;
     bottom: 8px;
 }
-
+.findus{
+    margin-left: 8%;
+}
 .schedule-btn {
     background-color: #D22626;
     color: white;

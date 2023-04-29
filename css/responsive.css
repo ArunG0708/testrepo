@@ -210,7 +210,7 @@ color: #fff;
 .form-select{
     font-size: 1.5rem;
     background-size: 30px;
-    margin-left: 2%;
+    margin-left: 0;
 }
 .formA {
     margin-left: 0;
@@ -287,7 +287,7 @@ color: #fff;
 }
 .horizontal-line{
     width: 24%;
- left: 0;
+ left: -13px;
     bottom: 2px;
 
 }
@@ -299,12 +299,8 @@ color: #fff;
     display: none;
 }
 
-.demo{
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    
+.findus{
+    margin-left: 18px;
 }
 .ctext{
     font-size: 12px;
@@ -533,7 +529,7 @@ padding-left: 25px;
 }
 .form-select{
     background-size: 22px;
-    margin-left: 16px;
+    margin-left: 30px;
     font-size: 1.5rem;
 }
 .about-msg{
@@ -578,6 +574,7 @@ width: 68%;
 }
 .horizontal-line {
 left: 45px;
+bottom: 2px;
 }
 .video-hide{
     display: none;
@@ -733,8 +730,10 @@ left: 45px;
     }
    
     .play-img {
-        left: 92px;
-        top:-54px;
+        left: 109px;
+    top: -53px;
+    width: 20%;
+
     }
     .rectangle-div{
         width: 53%;
@@ -746,6 +745,9 @@ left: 45px;
     }
     .years{
         width: 120%;
+    }
+    .form-select{
+        margin-left: 15%;
     }
     .award-media{
         font-size: xx-large;
@@ -760,6 +762,9 @@ left: 45px;
         width: 12%;
         left: 60px;
        
+    }
+    .free-content .client-btn {
+        width: 70%;
     }
     .horizontal-line{
         width: 19%;
