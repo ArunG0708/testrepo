@@ -14,7 +14,9 @@
     margin-top: 16%;
 }
 .logo-phn{
-    width: 90%;
+    width: 65%;
+    position: relative;
+    bottom: 6px;
 }
 
   .submenu li a {
@@ -281,6 +283,7 @@ color: #fff;
 }
 .del{
     width: 80%;
+    margin-left: 10%;
 }
 .horizontal-line{
     width: 24%;
@@ -307,10 +310,11 @@ color: #fff;
     font-size: 12px;
     padding: 6px;
 }
-
-.card-title{
-    padding-left: 2%;
+.cardt2{
+    padding-left: 6px;
 }
+
+
 .video{
     text-align: center;
 }
@@ -368,6 +372,7 @@ color: #fff;
     
      .icon{
         position: relative;
+        left: 17px;
        
     }
     .logo1 {
@@ -427,7 +432,7 @@ color: #fff;
         border-color: #fff;
     }
     .logo-phn{
-        width: 72%;
+        width: 50%;
     }
     .sidenav {
         height: 100%;

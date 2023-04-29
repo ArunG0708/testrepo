@@ -275,6 +275,9 @@
 .view-btn {
     margin-top: 4%;
 }
+.view-btn:hover{
+    background-image: linear-gradient(#D22626, #691313);
+}
 
 .main-form button {
     color: #fff;
@@ -335,7 +338,7 @@
 }
 
 .ctext {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.3;
 }
 
@@ -349,7 +352,7 @@
     font-size: 15px;
     font-weight: bold;
     line-height: 1.3;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .post-meta a {
@@ -370,6 +373,9 @@
 
 .viewmore-newsbtn {
     text-align: center;
+}
+.viewmore-newsbtn button:hover{
+    background-image: linear-gradient(to right, #D22626, #691313);
 }
 
 .clr-line {
@@ -466,6 +472,9 @@
     padding: 8px 20px 8px 19px;
     border-radius: 29px;
    border: none;
+}
+.subscribe-btn:hover{
+    background-image: linear-gradient(to right, #D22626, #691313);
 }
 
 #place {
