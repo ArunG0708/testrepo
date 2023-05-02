@@ -726,28 +726,28 @@
     </div>
     <div class="container d-block ">
       <div class="row justify-content-evenly pt-3">
-        <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-6 col-6">
           <div class="blue  text-white text-center p-3 card-height ">
             <img src="imgs/Settle.png" class="img-fluid" alt="settle-icon">
             <div class="fw-bold h3 pt-2">SETTLE</div>
             <p class=" ">Settle aboard With NationWide Visas.</p>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-6 col-6">
           <div class="yellow  text-white text-center p-3 card-height">
             <img src="imgs/Study.png" class="img-fluid" alt="study-icon">
             <div class="fw-bold h3 pt-2">STUDY</div>
             <p class="">Study aboard With NationWide Visas.</p>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-6 col-6">
           <div class="green  text-white text-center p-3 card-height">
             <img src="imgs/Invest.png" class="img-fluid" alt="service-icon">
             <div class="fw-bold h3 pt-2">Invest</div>
             <p class="">Invest aboard With NationWide Visas.</p>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-6 col-6">
           <div class="red  text-white text-center p-3  card-height ">
             <img src="imgs/Visit.png" class="img-fluid" alt="visit-icon">
             <div class="fw-bold h3 pt-2">Visit</div>
@@ -824,7 +824,7 @@
               </div>
               <div class="col-lg-3 col-xl-2 ">
                 <h3 class="text-white fw-bold">300k+</h3>
-                <p class=" years seeking">Seeking Advice Every Year</p>
+                <p class=" years ">Seeking Advice Every Year</p>
 
               </div>
 
@@ -888,7 +888,7 @@
               <form>
                 <div class="form-group pb-2">
 
-                  <input type="text" id="name" name="name" required class="form-control text-dark" placeholder="Name">
+                  <input type="text" id="name" name="name"  class="form-control text-dark" placeholder="Name" required>
                 </div>
 
                 <div class="form-group pt-2">
@@ -1573,7 +1573,7 @@
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="row">
           <div class="col-md-6">
-            <div class="accordion-item mt-2">
+            <div class="accordion-item mt-2" style="border-radius: 9px; border: 2px solid white;">
               <h2 class="accordion-header" id="flush-headingTwelve">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
@@ -1604,7 +1604,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="accordion-item mt-2">
+            <div class="accordion-item mt-2" style="border-radius: 9px; border: 2px solid white;">
               <h2 class="accordion-header" id="flush-headingThirteen">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
@@ -1642,7 +1642,7 @@
         </div>
         <div class="row py-3">
           <div class="col-md-6">
-            <div class="accordion-item">
+            <div class="accordion-item" style="border-radius: 9px; border: 2px solid white;">
               <h2 class="accordion-header" id="flush-headingFouteen">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFouteen" aria-expanded="false" aria-controls="flush-collapseFouteen">
@@ -1681,7 +1681,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="accordion-item australia-btn">
+            <div class="accordion-item australia-btn "style="border-radius: 9px; border: 2px solid white;">
               <h2 class="accordion-header" id="flush-headingFifteen">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
@@ -2128,48 +2128,51 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
+<script>
+  
+$('.responsive').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1100,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        arrows: false,
+        dots: true,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
 
-  <script>
-    $('.responsive').slick({
-      dots: false,
-      infinite: false,
-      speed: 300,
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1100,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: false,
-            arrows: false,
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            arrows: false,
-            dots: true,
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: true,
+      }
+    }
 
-          }
-        }
+  ]
+});
 
-      ]
-    });
-  </script>
+ 
+</script>
+  
   <script>
     $(function () {
       $('#goodselect').change(function () {

@@ -266,14 +266,14 @@ color: #fff;
     left: 60px;
    
 }
-   .clr-line2{
+.clr-line2{
     bottom: 12px;
     right: 0;
    }
-   .clr-line3{
+.clr-line3{
     margin-top: 0;
    }
-   .client-photo{
+.client-photo{
     width: 38%;
     padding-top: 7%;
 }
@@ -309,7 +309,6 @@ color: #fff;
 .cardt2{
     padding-left: 6px;
 }
-
 
 .video{
     text-align: center;
@@ -744,7 +743,11 @@ bottom: 2px;
         padding-top: 15%;
     }
     .years{
-        width: 120%;
+        /* width: 120%; */
+        font-size: 14px;
+    }
+    .ctext {
+        font-size: 10px;
     }
     .form-select{
         margin-left: 15%;
@@ -800,9 +803,15 @@ bottom: 2px;
             font-size: xx-large;
         }
         .years {
-            font-size: small;
-            font-weight: 900;
-            width: 120%;
+            font-size: 10px;
+        
+        }
+        .cardshadow {
+           
+            margin-top: 26px;
+        }
+        .form-select{
+            margin-left: 20%;
         }
         .addres{
             width: 50%;
@@ -885,9 +894,9 @@ bottom: 2px;
                 position: relative;
                 padding-top: 5%;
             }
-           .seeking{
-            width: 128%;
-           }
+          .years{
+            font-size: 12px;
+          }
            .addres{
             width: 40%;
         }
