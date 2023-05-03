@@ -290,6 +290,7 @@
 
 .main-form button:hover {
     background-image: linear-gradient(#D22626, #691313);
+    color: #fff;
 }
 
 .section-red-backgrnd {
@@ -437,7 +438,7 @@ margin-top: 4px;
     border-radius: 19px;
     border: none;
     padding: 6px;
-    width: 54%;
+    width: 55%;
     margin-left: 12%;
 }
 
@@ -747,5 +748,5 @@ margin-top: 4px;
     color: #D22626;
 }
 .accordion-body{
-    background-color:lightgrey;
+    background-color:#F2F2F2;
 }
