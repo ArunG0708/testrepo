@@ -731,6 +731,10 @@ bottom: 2px;
     width: 20%;
 
     }
+    .about-msg {
+        margin-left: 0;
+        width: 100%;
+    }
     .rectangle-div{
         width: 53%;
         padding-left: 4%;
